@@ -1,0 +1,6 @@
+<launch>
+<!--env name="GAZEBO_MODEL_PATH" value="$(find exmpl_models)"/-->
+<env name="GAZEBO_RESOURCE_PATH" value="$(find exmpl_models)"/>
+<node name="cork_sdf2" pkg="gazebo_ros" type="spawn_model" args="-file $(find exmpl_models)/coke_can/model.sdf -sdf -model cork_can2 -x -9.5 -y -0.7 -z 0.8  -Y -1.1"  />
+    
+</launch>

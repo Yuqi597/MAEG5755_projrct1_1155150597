@@ -1,0 +1,4 @@
+<launch>
+<node name="coke_model" pkg="gazebo_ros" type="spawn_model" args="-file $(find exmpl_models)/coke/model.sdf -sdf -model 
+coke -x 0.5 -y -0.35 -z 0.7 -Y 0.43" />
+</launch>
